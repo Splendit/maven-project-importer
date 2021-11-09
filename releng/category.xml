@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="standalone.feature">
+      <category name="splendit"/>
+   </feature>
+   <bundle id="org.eclipse.equinox.common" version="3.15.0">
+      <category name="splendit"/>
+   </bundle>
+   <bundle id="org.eclipse.update.configurator" version="3.4.800">
+      <category name="splendit"/>
+   </bundle>
+   <bundle id="org.eclipse.equinox.launcher" version="1.6.200">
+      <category name="splendit"/>
+   </bundle>
+   <category-def name="splendit" label="splendit">
+      <description>
+         Eclipse plugins by Splendit IT-Consulting GmbH
+      </description>
+   </category-def>
+</site>
