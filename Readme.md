@@ -38,6 +38,9 @@ Now, minimal-m2e maven plugin is ready to be used. Import the plugin into any ma
 </build>
 ```
 
+
+Run `mvnDebug minimal-m2e:import` to start debugging.
+
 ## Tips 
 
 In order to debug M2E, it is useful to clone the [m2e-core](https://github.com/eclipse-m2e/m2e-core) project and import it into Eclipse. 
@@ -50,8 +53,6 @@ git checkout -b debug-branch 1.18.0
 ```
 
 ## Requirements 
-
-Run `mvnDebug minimal-m2e:import` to start debugging. 
 
 * Maven 3.6.0+
 * Java 11
